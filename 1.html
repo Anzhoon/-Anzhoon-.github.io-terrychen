@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotePad</title>
+    <meta name="description" content="Take your notes online.">
+    <meta name="author" content="Jason Lee">
+    <link rel="stylesheet" type="text/css" href="3.css">
+</head>
+
+<body>
+    <div class= "clock" >
+        <p id="date1"></p>
+        <p id="time"></p>
+    </div>
+    <div id="main" style="font-family: 'Courier New', monospace;">
+        <h1 id="title" style="color: darkorchid;">NotePad</h1>
+        <p>Enter the date:</p>
+        <input id="date" type="date">
+        <br>
+        <br>
+        <p>Enter the note:</p>
+        <input id="note" type="text" placeholder="Click to enter">
+        <br>
+        <br>
+        <button id="save">Save</button>
+        <button class="delete" id="delete">Delete the last one</button>
+        <button class="delete" id="deleteAll">Clear All</button>
+        <br>
+        <br>
+        <div id="list"></div>
+    </div>
+
+    <script src="./2.js"></script>
+</body>
+
+</html>
